@@ -84,3 +84,57 @@ body{
         border-bottom-left-radius: 1rem;
     } 
 }
+
+/** Info **/
+
+.info {
+    padding: 2rem;
+}
+
+.info h2 {
+    margin: 1rem;
+    text-transform: uppercase;
+    color: var(--dark-grayish-blue);
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+}
+
+.info h1 {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 1rem;
+}
+
+@media (min-width: 480px) {
+    .info h1 {
+        padding-right: 2rem;
+    }
+    
+}
+
+.info .description {
+    margin: 1rem;
+    color: var(--dark-grayish-blue);
+    font-size: 1.3rem;
+    word-spacing: 0.2rem;
+    line-height: 2rem;
+}
+
+.info .price {
+    margin: 1rem;
+    color: var(--dark-cyan);
+    font-size: 3rem;
+    padding: 1rem 0;
+    display: flex;
+}
+
+.info .price span {
+    margin: auto 0;
+    margin-left: 2rem;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+    font-size: 1.2rem;
+}
