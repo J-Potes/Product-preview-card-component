@@ -1,5 +1,4 @@
 :root {
-    /* --background: rgb(243, 234, 227); */
     --dark-cyan: hsl(158, 36%, 37%);
     --cream: hsl(30, 38%, 92%);
     --dark-blue: hsl(212, 21%, 14%);
@@ -139,6 +138,8 @@ body{
     font-size: 1.2rem;
 }
 
+/** Button **/
+
 .button {
     background-color: var(--dark-cyan);
     display: flex;
@@ -159,4 +160,16 @@ body{
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--white);
+}
+
+/** Attribution **/
+
+.attribution {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.attribution a {
+    color: var(--dark-cyan);
 }
